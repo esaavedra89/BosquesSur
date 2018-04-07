@@ -216,11 +216,10 @@
             <div class="row">
                 <div class="features">
                     <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
-                        <div class="features-item">
+                        <div class="features-item" data-toggle="modal" data-target="#MovimientoDeTierras">
                             <div class="features-icon">
                                  <img style='width: 200px; border-radius: 20px; text-align: center;'
-									  class="img-responsive" src="images/movtierra.jpg" alt=""
-								 data-toggle="modal" data-target="#MovimientoDeTierras">
+									  class="img-responsive" src="images/movtierra.jpg" alt="">
                             </div>
                             <h3 class="features-title font-alt">Movimiento de Tierras</h3>
                             Descripción
@@ -228,11 +227,11 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
-                        <div class="features-item">
+                        <div class="features-item" data-toggle="modal" data-target="#caminos">
                             <div class="features-icon">
                              
-                                <img style='width: 200px; border-radius: 20px; text-align: center;' class="img-responsive" src="images/caminos.jpg" alt=""
-                                     data-toggle="modal" data-target="#caminos">
+                                <img style='width: 200px; border-radius: 20px; text-align: center;'
+                                     class="img-responsive" src="images/caminos.jpg" alt="">
                             </div>
                             <h3 class="features-title font-alt">Construcción de Caminos</h3>
                             Descripción
@@ -240,7 +239,7 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
-                        <div class="features-item">
+                        <div class="features-item" data-toggle="modal" data-target="#Terrenos">
                             <div class="features-icon">
                               
                                 <img style='width: 200px; border-radius: 20px; text-align: center;' class="img-responsive" src="images/habili.jpg" alt="">
@@ -251,7 +250,7 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="features-item">
+                        <div class="features-item" data-toggle="modal" data-target="#Bosque">
                             <div class="features-icon">
                               
                                 <img style='width: 200px; border-radius: 20px; text-align: center;' class="img-responsive" src="images/enpie.jpg" alt="">
@@ -262,7 +261,7 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="features-item">
+                        <div class="features-item" data-toggle="modal" data-target="#Viveros">
                             <div class="features-icon">
                              
                                <img style='width: 200px; border-radius: 20px; text-align: center;' class="img-responsive" src="images/vivero.jpg" alt="">
@@ -273,7 +272,7 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="features-item">
+                        <div class="features-item" data-toggle="modal" data-target="#Plantaciones">
                             <div class="features-icon">
                                
                                 <img style='width: 200px; border-radius: 20px; text-align: center;' class="img-responsive" src="images/plantacion.jpg" alt="">
@@ -284,7 +283,7 @@
                     </div>
 
                     <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="features-item">
+                        <div class="features-item" data-toggle="modal" data-target="#Perimetrales">
                             <div class="features-icon">
                                
                                  <img style='width: 200px; border-radius: 20px; text-align: center;' class="img-responsive" src="images/cierre.jpg" alt="">
@@ -294,8 +293,8 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-                        <div class="features-item">
+                    <!--<div class="col-sm-6 col-md-3 col-lg-3 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="features-item" data-toggle="modal" data-target="#Otros">
                             <div class="features-icon">
                                  
                                   <img style='width: 200px; border-radius: 20px; text-align: center;' class="img-responsive" src="images/imagen.png" alt="">
@@ -303,7 +302,7 @@
                             <h3 class="features-title font-alt">Otros</h3>
                             Descripción 
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>   
         </div>
@@ -552,21 +551,23 @@
 	</div>
 </footer>
 <!---------------------------------------------------------/#footer----------------------------------------------------------------->
-
+<!----------------------------------------------------------Modales Servicios------------------------------------------------->
 <!-- Modal Movimiento de Tierras -->
 <div class="modal fade" id="MovimientoDeTierras" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header text-center">
-				<h5 class="modal-title" id="exampleModalLongTitle">MOVIMIENTO DE TIERRAS</h5>
+				<h3 class="modal-title" id="exampleModalLongMovimiento">MOVIMIENTO DE TIERRAS</h3>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
+					<span aria-hidden="true" >&times;</span>
 				</button>
 			</div>
 			<div class="modal-body text-center">
-				<img style='width: 300px; border-radius: 20px; text-align: center;'
+				<img style='width: 250px; border-radius: 20px; text-align: center;'
 					 class="img-responsive" src="images/movtierra.jpg" alt="">
-				<p>Aquí colocamos la Descripción que se desee</p>
+				<p style="margin: 20px">Ofrecemos un servicio integral de movimientos de tierras, disponemos de un parque de maquinaria
+                    amplio y en estado óptimo para el desarrollo de nuestro trabajo, además nos adaptamos al desafío
+                    tecnológico y los cambios que el mercado demanda</p>
 			</div>
 		</div>
 	</div>
@@ -578,7 +579,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header text-center">
-                <h5 class="modal-title" id="exampleModalLongTitle1">CAMINOS</h5>
+                <h3 class="modal-title" id="exampleModalLongTitle1">CAMINOS</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -586,13 +587,122 @@
             <div class="modal-body text-center">
                 <img style='width: 250px; border-radius: 20px; text-align: center;'
                      class="img-responsive" src="images/caminos.jpg" alt="">
-                <p>Aquí colocamos la Descripción que se desee</p>
+                <p style="margin: 20px">Nos especializamos en los servicios de construcciones de caminos, ajustamos
+                    nuestros precios a las necesidades de la obra para garantizar el cumplimiento de los requerimientos
+                    de nuestros clientes</p>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Fin Modal Caminos -->
+
+<!-- Modal TERRENOS -->
+<div class="modal fade" id="Terrenos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLongTerrenos">HABILITACIÓN DE TERRENOS</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img style='width: 250px; border-radius: 20px; text-align: center;'
+                     class="img-responsive" src="images/habili.jpg" alt="">
+                <p style="margin: 20px"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fin Modal TERRENOS -->
+
+<!-- Modal VENTA DE BOSQUE EN PIE -->
+<div class="modal fade" id="Bosque" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLongBosque">VENTA DE BOSQUE EN PIE</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img style='width: 250px; border-radius: 20px; text-align: center;'
+                     class="img-responsive" src="images/enpie.jpg" alt="">
+                <p style="margin: 20px"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fin Modal VENTA DE BOSQUE EN PIE -->
+
+<!-- Modal EXPLOTACION DE VIVEROS FORESTALES -->
+<div class="modal fade" id="Viveros" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLongViveros">EXPLOTACION DE VIVEROS FORESTALES</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img style='width: 250px; border-radius: 20px; text-align: center;'
+                     class="img-responsive" src="images/vivero.jpg" alt="">
+                <p style="margin: 20px"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fin Modal EXPLOTACION DE VIVEROS FORESTALES -->
+
+<!-- Modal EXPLOTACION DE VIVEROS FORESTALES -->
+<div class="modal fade" id="Plantaciones" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLongPlantaciones">PLANTACIONES</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img style='width: 250px; border-radius: 20px; text-align: center;'
+                     class="img-responsive" src="images/plantacion.jpg" alt="">
+                <p style="margin: 20px"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fin Modal EXPLOTACION DE VIVEROS FORESTALES -->
+
+<!-- Modal EXPLOTACION DE VIVEROS FORESTALES -->
+<div class="modal fade" id="Perimetrales" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLongPerimetrales">CIERRES PERIMETRALES</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img style='width: 250px; border-radius: 20px; text-align: center;'
+                     class="img-responsive" src="images/cierre.jpg" alt="">
+                <p style="margin: 20px"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fin Modal EXPLOTACION DE VIVEROS FORESTALES -->
+
+<!--------------------------------------------------------Fin Modales Servicios------------------------------------------------->
 
 <!------------------------------------Modales seccion Portafolio------------------------------------------------->
 
