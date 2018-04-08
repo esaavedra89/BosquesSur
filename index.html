@@ -34,7 +34,9 @@
 	<link href="css/prettyPhoto.css" rel="stylesheet" />
 	<link href="css/main.css" rel="stylesheet" />
 	<link href="css/responsive.css" rel="stylesheet" />
-	<link href="styles/animate.css" rel="stylesheet" type="text/css" /><!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/minicarousel.css">
+    <!--<link href="styles/animate.css" rel="stylesheet" type="text/css" />--><!--[if lt IE 9]>
+
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
@@ -148,14 +150,49 @@
 </div>
 
 <div class="row">
-<div class="col-sm-6 wow fadeInLeft">
-    <img alt="" class="img-responsive" src="images/main-feature.png" style="padding-top: 80px; width: 100%;" />
+<div class="col-sm-6 wow fadeInDown">
+    <div class="slider" id="Forestales">
+        <ul>
+            <li><img src="images/portfolio/SitioIansa1.png"></li>
+            <li><img src="images/portfolio/SitioDuqueco.png"></li>
+            <li><img src="images/portfolio/SitioLosLagos.png"></li>
+            <li><img src="images/portfolio/Sitio1.png"></li>
+        </ul>
+    </div>
+
+    <div class="slider" id="Agricolas">
+        <ul>
+            <li><img src="images/portfolio/Sitio1.png"></li>
+            <li><img src="images/portfolio/SitioIansa1.png"></li>
+            <li><img src="images/portfolio/SitioDuqueco.png"></li>
+            <li><img src="images/portfolio/SitioLosLagos.png"></li>
+        </ul>
+    </div>
+
+    <div class="slider" id="Industriales">
+        <ul>
+            <li><img src="images/portfolio/SitioLosLagos.png"></li>
+            <li><img src="images/portfolio/Sitio1.png"></li>
+            <li><img src="images/portfolio/SitioIansa1.png"></li>
+            <li><img src="images/portfolio/SitioDuqueco.png"></li>
+        </ul>
+    </div>
+
+    <div class="slider" id="Urbanos">
+        <ul>
+            <li><img src="images/portfolio/SitioDuqueco.png"></li>
+            <li><img src="images/portfolio/SitioLosLagos.png"></li>
+            <li><img src="images/portfolio/Sitio1.png"></li>
+            <li><img src="images/portfolio/SitioIansa1.png"></li>
+        </ul>
+    </div>
+    <!--<img alt="" class="img-responsive" src="images/main-feature.png" style="padding-top: 80px; width: 100%;" />-->
     <!------------------------------------------------------->
     <!--------------------------------------------------------->
 </div>
 
 <div class="col-sm-6">
-<div class="media service-box wow fadeInRight">
+<div class="media service-box wow fadeInRight" id="Fores" >
 <div class="pull-left"><img src="images/forestal.jpg" style="width:64px; border-radius:150px;" /></div>
 
 <div class="media-body">
@@ -165,7 +202,7 @@
 </div>
 </div>
 
-<div class="media service-box wow fadeInRight">
+<div class="media service-box wow fadeInRight" id="Agri">
 <div class="pull-left"><img src="images/agricola.jpg" style="width:64px; border-radius:150px;" /></div>
 
 <div class="media-body">
@@ -175,7 +212,7 @@
 </div>
 </div>
 
-<div class="media service-box wow fadeInRight">
+<div class="media service-box wow fadeInRight" id="Indus">
 <div class="pull-left"><img src="images/industrial.jpg" style="width:64px; border-radius:150px;" /></div>
 
 <div class="media-body">
@@ -185,7 +222,7 @@
 </div>
 </div>
 
-<div class="media service-box wow fadeInRight">
+<div class="media service-box wow fadeInRight" id="Urban">
 <div class="pull-left"><img src="images/urbano.jpg" style="width:64px; border-radius:150px;" /></div>
 
 <div class="media-body">
@@ -313,7 +350,7 @@
 <p class="text-center wow fadeInDown">Arriendo y Predios en Venta</p>
 </div>
 
-<div class="text-center">
+<div class="text-center wow fadeInDown">
 <ul class="portfolio-filter">
 	<li><a class="active" data-filter="*" href="#">Todos</a></li>
 	<!-- <li><a href="#" data-filter=".animation">Habilitacion de Terrenos</a></li>
@@ -322,7 +359,7 @@
 </ul>
 <!--/#portfolio-filter--></div>
 
-<div class="portfolio-items" style="margin-left: auto; margin-right: auto">
+<div class="portfolio-items wow fadeInDown" style="margin-left: auto; margin-right: auto">
     <div class="portfolio-item animation">
 <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/LOTE11.png"
                                        />
@@ -461,7 +498,7 @@
 <p class="text-center wow fadeInDown animated" style="visibility: visible;">Dejanos tu mensaje y nos contactaremos contigo a la brevedad</p>
 </div>
 
-<form action="enviacontacto.php" method="post" name="contact-form">
+<form action="enviacontacto.php" method="post" name="contact-form" class="wow fadeInDown">
 <div class="col-lg-6 animated animate-from-left" style="opacity: 1; left: 0px;">
 <div class="form-group"><label for="name">Tu Nombre:</label> <input class="form-control" id="name" name="nombre" placeholder="Nombre" required="" type="text" /></div>
 
@@ -985,5 +1022,7 @@
 <script src="js/jquery.inview.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/HideCarousel.js"></script>
+
 </body>
 </html>
