@@ -47,7 +47,8 @@
 <header class="navbar-inverse navbar-fixed-top" id="top-header">
 <div class="container-fluid">
 <div class="navbar-header"><!-- responsive nav button -->
-    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button><!-- /responsive nav button --><!-- logo -->
+    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button" aria-expanded="false"><span class="sr-only" >
+        Toggle navigation</span>Menu</button><!-- /responsive nav button --><!-- logo -->
 <div class="navbar-brand">
     <a class="smooth-scroll" data-section="#home" href="#home">
         <img alt="" class="animated infinite pulse" src="images/bs.svg" style="width:120px;" /> </a></div>
@@ -166,19 +167,19 @@
 
     <div class="slider" id="Agricolas">
         <ul>
-            <li><img src="images/agricolas.png"></li>
-            <li><img src="images/agricolas.png"></li>
-            <li><img src="images/agricolas.png"></li>
-            <li><img src="images/agricolas.png"></li>
+            <li><img src="images/Agricola1.png"></li>
+            <li><img src="images/Agricola2.png"></li>
+            <li><img src="images/Agricola3.png"></li>
+            <li><img src="images/Agricola1.png"></li>
         </ul>
     </div>
 
     <div class="slider" id="Industriales">
         <ul>
-            <li><img src="images/industriales.png"></li>
-            <li><img src="images/industriales.png"></li>
-            <li><img src="images/industriales.png"></li>
-            <li><img src="images/industriales.png"></li>
+            <li><img src="images/Industrial1.png"></li>
+            <li><img src="images/Industrial2.png"></li>
+            <li><img src="images/Industrial3.png"></li>
+            <li><img src="images/Industrial4.png"></li>
         </ul>
     </div>
 
@@ -364,7 +365,9 @@
 <!--/#portfolio-filter--></div>
 
 <div class="portfolio-items wow fadeInDown" style="margin-left: auto; margin-right: auto">
-    <div class="portfolio-item animation ">
+
+
+    <div class="portfolio-item animation">
 <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/LOTE11.png"
                                        />
 <div class="portfolio-info" data-toggle="modal" data-target="#Loteo">
@@ -453,6 +456,19 @@
         </div>
     </div>
 
+    <!--INICIO SITIO SANTA CLARA-->
+
+    <div class="portfolio-item Business">
+        <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/SitioSantaClara.png" />
+            <div class="portfolio-info" data-toggle="modal" data-target="#SantaClara">
+                <p>SITIO SANTA CLARA</p>
+
+                <h3>LOS ÀNGELES, PROVINCIA: BIO BIO</h3>
+                <a class="preview" ><img alt="" src="images/portfolio/expand.png" /> </a></div>
+        </div>
+    </div>
+    <!--FIN SITIO SANTA CLARA-->
+
     <!--INICIO SITIO LOS PALOMARES-->
 
     <div class="portfolio-item Business">
@@ -490,7 +506,7 @@
     <!--FIN SITIO LEYDAS-->
     <!--INICIO SITIO MILLANTU-->
     <div class="portfolio-item Business">
-        <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/millantu.png" />
+        <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/millantu1.png" />
             <div class="portfolio-info" data-toggle="modal" data-target="#millantu">
                 <p>MILLANTU FORESTADO</p>
 
@@ -515,7 +531,7 @@
     <!--INICIO CAMPO SECTOR MILLANTU-->
 
     <div class="portfolio-item Business">
-        <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/millantu1.png" />
+        <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/millantu.png" />
             <div class="portfolio-info" data-toggle="modal" data-target="#millantu1">
                 <p>CAMPO SECTOR MILLANTU
                 </p>
@@ -525,6 +541,20 @@
         </div>
     </div>
     <!--FIN CAMPO SECTOR MILLANTU-->
+
+    <!--INICIO SITIO CARDONALES-->
+
+    <div class="portfolio-item Business">
+        <div class="portfolio-item-inner"><img alt="" class="img-responsive" src="images/portfolio/SitioCardonal.png" />
+            <div class="portfolio-info" data-toggle="modal" data-target="#Cardonales">
+                <p>SITIO CARDONALES
+                </p>
+
+                <h3>PUERTO MONTT, PROVINCIA: LOS LAGOS</h3>
+                <a class="preview" ><img alt="" src="images/portfolio/expand.png" /> </a></div>
+        </div>
+    </div>
+    <!--FIN SITIO CARDONALES-->
 
 
 </div>
@@ -1254,7 +1284,7 @@
             </div>
             <div class="modal-body text-center">
                 <img style='width: 450px; border-radius: 20px; text-align: center;'
-                     class="img-responsive" src="images/portfolio/millantu.png" alt="">
+                     class="img-responsive" src="images/portfolio/millantu1.png" alt="">
                 <h5>UBICACIÓN </h5>
                 <ul class="list-inline">
                     <li><strong>COMUNA:</strong> LOS ÁNGELES</li><br>
@@ -1329,7 +1359,7 @@
             </div>
             <div class="modal-body text-center">
                 <img style='width: 450px; border-radius: 20px; text-align: center;'
-                     class="img-responsive" src="images/portfolio/millantu1.png" alt="">
+                     class="img-responsive" src="images/portfolio/millantu.png" alt="">
                 <h5>UBICACIÓN </h5>
                 <ul class="list-inline">
                     <li><strong>COMUNA:</strong> LOS ÁNGELES</li><br>
@@ -1354,6 +1384,41 @@
 </div>
 <!--------Fin Modal CAMPO MILLANTU--------->
 
+<!--------Modal SITIO CARDONALES --------->
+<div class="modal fade" id="Cardonales" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h3 class="modal-title" id="exampleModalLongSItioCardonal">SITIO CARDONALES</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-center">
+                <img style='width: 450px; border-radius: 20px; text-align: center;'
+                     class="img-responsive" src="images/portfolio/SitioCardonal.png" alt="">
+                <h5>UBICACIÓN </h5>
+                <ul class="list-inline">
+                    <li><strong>COMUNA:</strong>PUERTO MONTT</li><br>
+                    <li><strong>PROVINCIA: </strong>LOS LAGOS</li><br>
+                    <li><strong>SUPERFICIE FÍSICA:</strong> 8.000 m2 ZONA URBANA </li><br>
+                    <li><strong>PRECIO:</strong> $150.000.000
+                    </li><br>
+                </ul>
+                <h5><strong></strong>COORDENADAS UTM DE UBICACIÓN</h5>
+                <ul class="list-inline">
+                    <li><strong>ZONA:</strong> H18</li><br>
+                    <li><strong>ESTE:</strong>668312.86 m E  </li><br>
+                    <li><strong>NORTE:</strong> 5408474.20 m S </li><br>
+                </ul>
+                <h5>CARACTERÍSTICAS DE LA PROPIEDAD</h5>
+                <p style="margin: 10px"> TERRENO SECTOR URBANO IDEAL PARA VIVIENDAS, YA QUE ESTA RODEADO DE CONDOMINIOS
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Fin Modal Sitio Cardonales--------->
 
 
 <!-------------------------------------Fin Modales Portafolio----------------------------------------->
