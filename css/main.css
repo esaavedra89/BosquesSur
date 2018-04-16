@@ -679,3 +679,9 @@ ul.nostyle i {
     display: none;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .portfolio-item {
+    width: 80%;
+  }
+}
